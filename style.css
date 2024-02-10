@@ -1,0 +1,33 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 1px;
+    width: 302px;
+    height: 302px;
+    margin: auto;
+    border: 1px solid #000;
+  }
+  
+  .cell {
+    background-color: #181212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #ddd;
+  }
+  
+  .x {
+    color: #f00;
+  }
+  
+  .o {
+    color: #00f;
+  }
+  
+  
